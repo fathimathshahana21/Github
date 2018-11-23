@@ -1,0 +1,75 @@
+body {
+	background: #424242;
+	background: url("background.jpg");
+	color: white;
+	font-family: cursive;
+	text-align: center;
+}
+h1 {
+	font-family: 'Charmonman', cursive;
+	font-size: 60px;
+	margin: 10px;
+}
+p{
+	font-size: 14px;
+}
+.editor {
+	width: 95%;
+	height: auto;
+}
+.tools {
+	float: left;
+	width: 30%;
+	text-align: left;
+}
+.img {
+	width: 65%;
+	padding-left: 10px;
+	height: auto;
+}
+button {
+	color: white;
+	background: #B2BABB;
+	font-family: sans-serif;
+	border-radius: 10%;
+	border: 2px solid white;
+	padding: 5px;
+	margin-top: 2px;
+}
+input[type="file"] {
+	color: white;
+	background: #B2BABB;
+	font-family: sans-serif;
+	border-radius: 2%;
+	border: 2px solid white;
+	padding:10px;
+	margin-top: 5px;
+	margin-right: 5px;
+
+}
+
+
+input{
+	width: 225px;
+	margin: 5px;
+}
+
+.navBar{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 40px;
+	width: 100%;
+	background-color: white;
+	color: grey;
+}
+.navBar ul {
+	padding: 10px;
+}
+.navBar li {
+	padding: 20px;
+	display: inline;
+}
+.navBar a {
+	color: grey;
+	text-decoration: none;
+}
